@@ -54,6 +54,6 @@ module.exports = (
     },
   }
   const lazadaAPI = new LazadaAPI(appKey, appSecret, countryCode, accessToken)
-  console.log("Hello World")
+  conso("Hello World")
   return new Proxy(lazadaAPI, forwardPropertyHandler)
 }
